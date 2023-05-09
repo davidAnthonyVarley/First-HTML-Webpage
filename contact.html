@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="How to contact us">
+    <meta name="goal" content="create an easy-to-use interface">
+
+    <title>CCC Contact Page</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="header.png">
+</head>
+
+<body>
+    <header>
+        <section id="top_of_contact">
+            <h1>Contact Us!</h1>
+            <figcaption>Call Us</figcaption>
+            <img src="phone.png" alt="A phone" width="200"
+            height="200" loading="lazy" title="Use your phone">
+            <figcaption> at 086 905 2023</figcaption>
+
+        </section>
+
+        <section id="contact_form">
+            <h2>Contact Form</h2>
+            <form action="https://httpbin.org/post" method="get">
+            <fieldset>
+
+                Personal Info:
+                <p>
+                    <label for="firstName">First Name:</label>
+                    <input type="text" name="firstName" id="firstName"
+                    placeholder="Bob" autofocus>
+                </p>
+
+                <p>
+                    <label for="lastName">Last Name:</label>
+                    <input type="text" name="lastName" id="lastName"
+                    placeholder="Marley">
+
+                </p>
+
+                <p>
+                    <label for="email">Email:</label>
+                    <input type="text" name="email" id="email"
+                    placeholder="bm@gmail.com">
+                </p>
+
+                <textarea name="message" id="message" cols="30" 
+                    rows="10" placeholder="type here">
+                </textarea>
+                
+                <p></p>
+
+                <button type="submit"> Submit</button>
+                <button type="submit" formaction="https://httpbin.org/post" formmethod="post">post</button>
+                <button type="reset">reset</button>
+            </fieldset>
+
+        </form>
+
+            <fieldset>
+
+
+                Do you think we are discriminatory?
+                <legend> 
+                    
+
+                   
+                    <p>
+                        <label for="is_discriminatory">Yes</label>
+                        <input type="radio" name="discriminatory?" id="is_discriminatory" value="is_discriminatory">
+                    </p>
+
+                    <p>
+                        <label for="not_discriminatory">No</label>
+                        <input type="radio" name="discriminatory?" id="not_discriminatory" value="not_discriminatory">
+                    </p>
+
+                </legend>
+            </fieldset>
+        </section>
+
+
+        
+    </header>
+
+
+</body>
+
+<footer>
+    <br>
+    <hr>
+    <br>
+
+    <nav>
+
+    <ul>
+        <li>
+            <a href="#top_of_contact">Back to top</a>
+        </li>
+        <li>
+            <a href="#contact_form">Contact form</a>
+        </li>
+        <li>
+            <a href="home.html">Home-Page</a>
+        </li>
+        <li>
+            <a href="opening_hours.html">Opening Hours</a>
+        </li>
+    </ul>
+
+    </nav>
+</footer>
+
